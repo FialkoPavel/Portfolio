@@ -1,0 +1,632 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}
+.header{
+    font-family: 'Roboto', sans-serif;
+}
+.header__top{
+    background-color: #33251b;
+}
+.header__btn{
+    float: right;
+    line-height: 36px;
+    color: #1b1b1b;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
+    font-size: 16px;
+    /*display: block;*/
+    position: relative;
+}
+.header__btn:before{
+    content: "\f0b1";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 22px;
+    color: #1b1b1b;
+}
+.header__contacts:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.header__phone,
+.header__email,
+.header_instagram{
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    position: relative;
+}
+.header__logo a{
+    text-align: center;
+    color: #33251b;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.header__phone{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.header__phone:before{
+    content: "\f095";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+.header__email{
+    padding-left: 24px;
+}
+.header__email:before{
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+.header_instagram{
+    position: absolute;
+    padding-left: 20px;
+}
+.header_instagram i{
+    color: #ffc222;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.header__content{
+    padding: 34px 0px 23px;
+}
+.header__content-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+.menu a:hover{
+    border-color: #ffc222;
+}
+.menu li + li{
+    padding-left: 10px;
+}
+#modal{
+    display: none;
+}
+.slider{
+    background-image: url(../img/table-on-wooden-plank-326279.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+.slider__item-content{
+    text-align: center;
+    padding-top: 110px;
+    max-width: 665px;
+    margin: 0 auto;
+}
+.slider__title{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.slider__text{
+    line-height: 24px;
+    font-size: 18px;
+    color: #d3d2d2;
+    margin-bottom: 50px;
+}
+.default-btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+    position: relative;
+    z-index: 2;
+    outline: none;
+}
+.default-btn:after{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+}
+
+.slider__inner{
+    position: relative;
+}
+.slick-btn{
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    /*сделать мышку рукой*/
+    outline: none; outline;
+    /*отключить синюю рамку у кнопки*/
+    background-color: #ffc222;
+}
+.slick-btn.slick-disabled{
+    cursor: default;
+    background-color: transparent;
+}
+.slick-btn:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+}
+.slick-next{
+    right: 0;
+}
+.slick-next:before{
+    content: "\f105";
+}
+.slick-prev:before{
+    content: "\f104";
+ }
+.slick-prev:after{
+    left: 0;
+}
+.services{
+    padding: 50px 0px 30px;
+}
+.serv_1{
+    font-size: 50px;
+    color: #ffc222;
+}
+.serv_2{
+    font-size: 50px;
+    color: #ffc222;
+}
+.serv_3{
+    font-size: 50px;
+    color: #ffc222;
+}
+.services_top,
+.news__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.services_title-box,
+.form_title-box,
+.news__title-box{
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+.services_title-box:before,
+.form_title-box:before,
+.news__title-box:before{
+    content: "";
+    /*сли что-то вешаю на before то нужно обязательно .то написать*/
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    left: 0;
+    top: 11px;
+}
+.services-title,
+.form-title,
+.news__title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.services__text,
+.form__text,
+.news__title{
+    letter-spacing: 0.1px;
+}
+.services_btn a,
+.news__btn a{
+    /*избавляемся от эффекта флексов. была рамка внизу под ширину флекс*/
+    line-height: 24px;
+    color: #373636;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+}
+.services_items{
+    display: flex;
+    justify-content: space-between;
+}
+.services_item{
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 0px 40px;
+    position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+}
+.services_item-title{
+    color: #212020;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 24px 0;
+}
+.services_item-text{
+    letter-spacing: 0.1px;
+    padding: 0px 30px 30px;
+}
+.services_item-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.services_item-btn .default-btn{
+     color: #373636;
+ }
+.services_item-btn .default-btn:after{
+    color: #fff;
+}
+.services_item-link{
+    color: #050505;
+    border-bottom: 1px solid #050505;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 60px;
+}
+/*тень. выдеяшь ее в фотошопе. и выбираешь копировать css. нужен только box-shadow*/
+.about{
+    background-image: url("../img/fruits-eating-food-on-wood-326268.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    padding: 25px 0px 45px;
+}
+.about_inner{
+    max-width: 545px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+.about_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 200px 0px 25px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.about_text{
+    margin-bottom: 30px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: #d3d2d2;
+}
+.about__btn.default-btn:after{
+    color: black;
+}
+.form{
+    padding-top: 30px;
+}
+.form_inner{
+    padding-bottom: 40px;
+    /*background-image: url("../img/dish2.png");*/
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+}
+.form_inner img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    right: -230px;
+    bottom: 45px
+}
+.form_box{
+    max-width: 850px;
+    padding-top: 45px;
+}
+.form_box-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.form_box-left{
+    max-width: 260px;
+    width: 100%;
+}
+.form__box-right{
+    max-width: 555px;
+    width: 100%;
+}
+.form_box-inner label,
+.form_box-inner input,
+.form_box-inner textarea{
+    display: block;
+    width: 100%;
+}
+.form_box-inner label{
+    line-height: 36px;
+    color: #282828;
+}
+.form_box-inner input{
+    margin-bottom: 8px;
+    outline: none;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 10px;
+/*чтобы внутри инпута  буквы не прилипали по краям*/
+}
+.form_box-inner select{
+    outline: none;
+    background: transparent;
+    padding-left: 17px;
+    border-radius: 0;
+    box-shadow: none;
+}
+/*!*.form_box-inner .jq-selectbox__trigger-arrow:before{*!    если нужно сделать стрелку как на макете, я сделал по другому, если нужно как в макете, то скачать у него с готового кода*/
+/*     content: "\f105";
+  font-family: 'icomoon';
+  position: absolute;
+  right: 17px;
+  top: 0;
+  transform: rotate(90deg); повернуть на 90 градусов стрелочку
+/*}*/
+.form_box-inner .jq-selectbox.jqselect{
+    display: block;
+    width: 100%;
+}
+.form_box-inner textarea{
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    height: 208px;
+    resize: none;
+    margin-bottom: 40px;
+    /*чтобы текстареа не могла менять свой размер*/
+}
+.form_box-inner button{
+    background-color: transparent;
+    color: #282828;
+
+/*margin внешний отступ*/
+/*    padding внутренний отступ*/
+}
+.form_box-inner  .jq-selectbox__select{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    background: transparent;
+}
+.advantages{
+    padding: 55px 0px 40px;
+    background-image: url(../img/close-up-of-wooden-plank-326311.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 285px;
+    background-size: cover;
+}
+#div4{
+    background-image: url(img/background4.png);
+    width: 1600px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+
+}
+.texth4{
+    color: #dab33e;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 70px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+}
+.text4{
+    color: #dab33e;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+}
+.text41{
+    color: #dab33e;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+}
+.textp4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.box41{
+
+    margin-right: 170px;
+    height: 800px;
+    width: 440px;
+}
+.box44{
+
+    height: 800px;
+    width: 440px;
+}
+.blmenu{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.log4{
+    margin-left: 90px;
+    margin-bottom: 15px;
+}
+.main4{
+    border: 1px solid #dab33e;
+}
+.main4 .textp4{
+    margin-bottom: 5px;
+}
+.gallery{
+    margin: 0;
+    padding: 0;
+}
+#gallery {position:relative; max-width:786px; margin:40px auto; padding:10px; border:6px solid #fff; background:#AAA}
+#images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}
+#image {position:relative; width:672px; height:375px; padding:5px; border:2px solid #666; background:#FFF url(images/loading.gif) center center no-repeat}
+#image img {position:absolute; top:5px; left:5px}
+#thumbwrapper {margin-top:10px; padding:5px 0; width:682px; height:100px; border:2px solid #666; background:#FFF}
+#thumbarea {position:relative; overflow:hidden; height:100px; width:682px; }
+#thumbs {position:absolute; list-style:none; margin-left:5px; height:100px; width:10000px; border-right:5px solid #FFF}
+#thumbs li {float:left; margin-right:5px; cursor:pointer}
+.imgnav {position:absolute; height:375px; width:20%; z-index:100; height:375px; width:20%; z-index:100; outline:none; cursor:pointer}
+#previmg {left:0; background:url(images/left.gif) left center no-repeat; border-left:5px solid #FFF}
+#previmg:hover {opacity:1; filter:alpha(opacity=100)}
+#nextimg {right:0; background:url(images/right.gif) right center no-repeat; border-right:5px solid #FFF}
+#nextimg:hover {opacity:1; filter:alpha(opacity=100)}
+.footer__content{
+    /*background-color: #595959;*/
+    padding: 20px 0px 30px;
+    background-image: url(../img/close-up-of-wooden-plank-326311.jpg);
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__inner .header__btn{
+    float: none;
+    display: inline-block;
+}
+.footer__map{
+    padding-top: 10px;
+    max-width: 630px;
+    width: 100%;
+}
+.footer__map iframe{
+    width: 100%;
+}
+.footer__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+.footer__text{
+    color: #d3d2d2;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.footer__info{
+    max-width: 360px;
+}
+.footer__list{
+    padding-top: 10px;
+}
+.footer__list li{
+    margin-top: 10px;
+}
+.footer__list a{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 33px;
+    position: relative;
+}
+.footer__list a:before{
+    content: '\f003';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: 'icomoon';
+}
+.footer__list .footer__phone:before{
+    content: "\f095";
+    left: 3px;
+}
+.footer__list .footer__adress:before{
+    content: "\f041";
+    left: 3px;
+}
+.footer__copy{
+    background-color: #303030;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 8px 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.copy__text{
+    font-size: 17px;
+}
+#modal{
+    width: 300px;
+}
+#modal input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#modal input[type="submit"]{
+    /*выбрать input с типом submit*/
+    background-color: #ffc222;
+    border: none;
+}

@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#firstslide {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#header {                   /* первая картинка с макаронами */
+ background-image: url(img/bg.png);
+ height: 750px;
+ width: 1600px;   
+}
+
+ul li {
+    display: inline-block;
+    color: white;
+}
+
+ul {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Gentium Book Basic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lil {
+    color: #dab33e;
+}
+
+.headerup {
+    width: 1215px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+    align-items: center;
+}
+
+.headerup img {
+    width: 156px;
+    height: 92px;
+}
+
+.headerdown {
+    color: white;
+    width: 960px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header2 {                      /* вторая картинка с тарелкой */
+    margin: 0 auto;
+    background-image: url(img/pattern.png);
+    height: 710px;
+    width: 1600px; 
+    display: flex;
+}
+
+.headerdown img {
+    width: 235px;
+    height: 45px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.tekstheader {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+}
+
+.buttonsheader {
+     width: 488px;
+     height: 60px;
+     display: flex;
+     justify-content: space-between; /* растянись по ширине родителя */
+}
+
+.buttonheader1, .buttonheader2 {
+     width: 230px;
+     height: 60px;
+     background-color: rgba(0.3, 0, 0, 0);
+     border: 1px solid white;
+     color: white;
+     font-size: 18px;
+}
+
+.common {
+    width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.dish img {
+    width: 621px;
+    height: 625px; /* лучше указывать реальный размер картинки */ 
+}
+
+.rightfood {
+    width: 415px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.just {
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+    margin-top: 30px;
+}
+
+.text {
+    width: 410px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+.divider {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.cook {
+    margin-left: 90px;
+}
+
+#header3 {                      /* третья картинка с базиликом */               
+    background-image: url(img/bg2.png);
+    height: 760px;
+    width: 1600px;
+    padding-top: 100px;
+    box-sizing: border-box;/*если есть пэдинг или бордер,то это свойство сохранит исходное значение*/
+}
+
+.fineingr {
+    width: 570px;
+    height: 560px;
+    background: url(img/bgFineingr.png) no-repeat; /* no-repeat - все вместить, только для background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 815px;
+    padding-top: 80px;
+}
+
+.finetext {
+    font-family: 'Yeseva One', cursive, sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+
+.finetext2 {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+#header4 {                   /* четвертая картинка с меню */
+    background-image: url(img/patternMenu.png);
+    height: 995px;
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.textmenuleft, .textmenuright {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+    margin-top: 105px;
+    margin-bottom: 100px;
+}
+
+.textmenuleft {
+    margin-left: 270px;
+}
+
+.textmenuright {
+    margin-left: 145px;
+}
+
+.divmenu {
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.saladsdishes {
+    margin-top: 70px;
+}
+
+.line2 {
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.line5, .line10 {
+    margin-top: 8px;
+    margin-bottom: 26px;
+}
+
+.line8, .line12 {
+    margin-top: 38px;
+}
+
+#header5 {                       /* пятая картинка с шашлыком */
+    background-image: url(img/bg5.png);
+    width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+    
+.blok {
+    background: url(img/bgBlack.png) no-repeat;
+    width: 770px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    margin-left: 415px;
+    
+}    
+    
+.textblok {
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+    color: white;
+}    
+    
+.dividerblok {
+    padding-top: 20px;
+    padding-bottom: 10px;
+} 
+
+#header6 {       /* шестая картинка с вводами данных */     
+    width: 1600px;
+    height: 712px;
+    background-image: url(img/pattern6.png);
+    display: flex;
+    margin: 0 auto;
+}
+
+.images6 {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 517px;
+    margin-top: 100px;
+    margin-left: 185px;
+}
+
+.every6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 517px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.text6 {
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+    color: #cc9900;
+}
+
+.divider6 {
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.name {
+    font-family: 'Yeseva One', cursive, sans-serif;
+    color: #cc9900;
+    font-size: 14px;
+    width: 435px;
+/*    height: 140px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.namemini {
+    padding-bottom: 10px;
+}
+
+.nmini {
+    padding-bottom: 10px;
+    padding-top: 27px;
+}
+
+.inp {
+    width: 200px;
+    height: 35px;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.buttonheader6 {
+    width: 200px;
+    height: 37px;
+    background-color: #cc9900;
+    color: white;
+    font-size: 16px;
+    border: solid #cc9900;
+    margin-top: 32px;
+}
+
+#footer {
+    width: 1600px;
+    height: 320px;
+    background-image: url(img/background.png);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+}
+
+.footer1 {
+    width: 365px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 230px;
+/*    margin-right: 130px;*/
+}
+
+.footer2 {
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    text-align: center;*/
+/*    font-size: 16px;*/
+}
+
+.footer3 {
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+/*    margin-left: 200px;*/
+/*    text-align: center;*/
+/*    font-size: 16px;*/
+}
+
+.footert {
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive, sans-serif;
+}
+
+.lambda {
+    line-height: 1.4em;
+}
+
+.divfooter {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.ul2 {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+    font-size: 16px;
+}
+
+.ul3 {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+    font-size: 16px;
+}
+

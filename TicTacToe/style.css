@@ -1,0 +1,20 @@
+body {
+	font-size: 105px;
+	background-image: url("tic1.jpeg");
+	color: white;
+}
+#game {
+	width: 450px;
+	height: 450px;
+	/*background-color: #ffffffa1;*/
+	margin-top: 150px;
+	margin-left: 150px;
+	text-align: center;
+}
+.block {
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+}

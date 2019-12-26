@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../back6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    margin: 3px;
+    background: #80808094;
+    border: 2px solid darkgray;
+    color: black;
+    font-family: 'Gentium Book Basic', sans-serif;
+    border-radius: 1px;
+}
+
+.textview {
+    width: 362px;
+    height: 75px;
+    margin: 5px;
+    font-size: 50px;
+    padding: 5px;
+    border: none;
+    background-color: #80808094;
+    border: 5px solid darkgray;
+    color: black;
+    font-family: 'Gentium Book Basic', sans-serif;
+    border-radius: 1px;
+}
+
+.main {
+    position: absolute;
+    margin-left: 86px;
+    margin-top: 70px;
+    padding-left: 65px;
+    padding-top: 20px;
+    top: 40%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 450px;
+    height: 600px;
+    background: linear-gradient(to right, #80808000, #80808000);
+/*    border: 7px solid darkgray;*/
+    border-radius: 3px;
+}
+
+/*.bg {*/
+/*    margin-left: 50px;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+
+/*.bg {*/
+/*    background-color: aqua;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+

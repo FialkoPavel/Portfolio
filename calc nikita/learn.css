@@ -1,0 +1,81 @@
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(120deg, rgba(255,0,0,1) 0%, rgba(210,17,110,1) 49%, rgba(110,3,255,1) 100%);
+    font-size: 50px;
+    color: white;
+}
+
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 300px;
+    /*max-width: 214px;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    width: 188px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, serif;
+    border: 2px solid white;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: .5s;
+    user-select: none;
+}
+
+.btn {
+    width: 108px;
+    height: 60px;
+    background: none;
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    transition: .5s;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+.btn1 {
+    width: 222px;
+    height: 60px;
+    background: none;
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    transition: .5s;
+}
+.table {
+    max-height: 150px;
+    overflow-y: scroll;
+    width: 160px;
+    text-align: center;
+    font-size: 30px;
+}
+.table::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 6px;
+}
+.table::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(168,185,202, 0.3);
+}
+
+.list-item:nth-child(odd){
+    border-bottom: 1px solid white;
+    color: blue;
+}
+.list-item:nth-child(even){
+    border-bottom: 1px solid white;
+    color: green;
+}
+.list-item{
+    font-weight: bold;
+}
+

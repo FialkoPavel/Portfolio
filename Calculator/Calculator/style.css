@@ -1,0 +1,22 @@
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.the-calc,
+.the-calc input
+.equal {
+    font-size: 20px;
+    margin: 1rem;
+}
+
+#first, #oper, #second, #res {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;

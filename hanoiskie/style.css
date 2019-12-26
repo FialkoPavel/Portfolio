@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pexels-photo-1569049.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    position: relative;
+    /*border: 1px solid red;*/
+}
+
+.text {
+    margin-top: 20px;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+
+.number-three,
+.number-five,
+.number-seven {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 75px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Kalam', cursive;
+    background-color: #ffffff82;
+}
+
+.start-over {
+    margin-top: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Kalam', cursive;
+    background-color: #ffffff82;
+}
+
+.text-for-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.tower {
+    width: 250px;
+    height: 600px;
+    background-color: #ffffff82;
+    margin: 10px;
+}
+
+.tower-img {
+    background-color: dimgray;
+    height: 500px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+}
+
+.tower-bottom {
+    background-color: dimgray;
+    height: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+}
+
+.disk {
+    height: 20px;
+    position: absolute;
+}
+
+.black {
+    width: 60px;
+    background-color: #3b3737;
+    bottom: 150px;
+    left: calc(125px + 10px - 30px);
+}
+
+.darkblue {
+    width: 80px;
+    background-color: #173F5F;
+    bottom: 130px;
+    left: calc(125px + 10px - 40px);
+}
+
+.blue {
+    width: 100px;
+    background-color: #20639B;
+    bottom: 110px;
+    left: calc(125px + 10px - 50px);
+}
+
+.green {
+    width: 120px;
+    background-color: #3CAEA3;
+    bottom: 90px;
+    left: calc(125px + 10px - 60px);
+}
+
+.yellow {
+    width: 140px;
+    background-color: #F6D55C;
+    bottom: 70px;
+    left: calc(125px + 10px - 70px);
+}
+
+.red {
+    width: 160px;
+    background-color: #ED553B;
+    bottom: 50px;
+    left: calc(125px + 10px - 80px);
+}
+
+.purple {
+    width: 180px;
+    background-color: #62398b;
+    bottom: 30px;
+    left: calc(125px + 10px - 90px);
+}

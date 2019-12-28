@@ -3,6 +3,7 @@
 	height: 1570px;
 	width: 1270px;
 	margin-left: 200px;
+    transform: translate(-50%; -50%);
 }
 .header{
 	width: 1280px;

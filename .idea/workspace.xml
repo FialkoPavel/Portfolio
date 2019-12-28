@@ -20,37 +20,13 @@
       <change afterPath="$PROJECT_DIR$/todo/src/Components/todo-list/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/todo/src/Components/todo-list/todo-list.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/todo/src/Components/todo-list/todo-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BullsAndCows" beforeDir="false" afterPath="$PROJECT_DIR$/BullsAndCows" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BullsAndCows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BullsAndCows/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BullsAndCows/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/BullsAndCows/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BullsAndCows/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BullsAndCows/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guessthenumber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Guessthenumber/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Primenumber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Primenumber/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cow1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cow12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digit.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/head1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hourglass-620397_1920.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/num.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/num2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pexels-photo-1569049.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic toc.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic-tac-toe-1777880_1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/todo" beforeDir="false" afterPath="$PROJECT_DIR$/todo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/public/favicon.ico" beforeDir="false" />
@@ -67,7 +43,6 @@
       <change beforePath="$PROJECT_DIR$/todo/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/src/serviceWorker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +101,8 @@
       <workItem from="1576525465052" duration="3525000" />
       <workItem from="1577083853774" duration="957000" />
       <workItem from="1577537426538" duration="2375000" />
-      <workItem from="1577542850770" duration="912000" />
+      <workItem from="1577542850770" duration="2421000" />
+      <workItem from="1577567591692" duration="1391000" />
     </task>
     <servers />
   </component>

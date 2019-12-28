@@ -12,3 +12,8 @@ $(function(){
     $('select').styler();
 });
 
+// let sendForm = document.getElementsByClassName('default-btn');
+// sendForm.addEventListener('click', function (event) {
+//     event.preventDefault();
+//     alert('push');
+// });

@@ -319,6 +319,7 @@ a h1{
 	font-size: 17px;
 }
 .footskil {
+    cursor: pointer;
 	bottom: 50px;
 position: absolute;
 left: 900px;

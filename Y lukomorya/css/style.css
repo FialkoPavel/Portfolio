@@ -291,6 +291,21 @@ body{
     background-color: #f9f9f9;
     box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
+.services_item:hover {
+    cursor: pointer;
+    animation: 2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-10deg);
+    }
+    20%, 40% {
+        transform: rotate(10deg);
+    }
+}
 .services_item-title{
     color: #212020;
     font-size: 18px;
@@ -445,66 +460,65 @@ body{
     background: transparent;
 }
 .advantages{
-    padding: 55px 0px 40px;
+    padding: 25px 0px 35px;
     background-image: url(../img/close-up-of-wooden-plank-326311.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 285px;
     background-size: cover;
 }
-#div4{
-    background-image: url(img/background4.png);
-    width: 1600px;
-    height: 1000px;
+.containerMenu{
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 0 15px;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
 }
-.texth4{
-    color: #dab33e;
+/*.menu{*/
+/*    height: 1000px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+.menuMain{
+    color: lightgray;
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 25px;
-    margin-top: 70px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 40px;
     font-family: 'Yeseva One', cursive, sans-serif;
 }
 .text4{
-    color: #dab33e;
-    font-size: 21px;
+    color: white;
+    font-size: 20px;
     font-family: 'Yeseva One', cursive, sans-serif;
 }
 .text41{
-    color: #dab33e;
-    font-size: 21px;
+    color: white;
+    font-size: 20px;
     font-family: 'Yeseva One', cursive, sans-serif;
 }
 .textp4{
+    color: #d3d2d2;
     font-size: 16px;
-    margin-bottom: 15px;
+    padding-bottom: 10px;
 }
-.box41{
-
-    margin-right: 170px;
-    height: 800px;
-    width: 440px;
-}
-.box44{
-
+.menuLeft .menuCenter .menuRight{
+    margin-right: 130px;
     height: 800px;
     width: 440px;
 }
 .blmenu{
     display: flex;
     justify-content: space-between;
-
-
+    height: 35px;
+    margin-bottom: 0px;
 }
 .log4{
-    margin-left: 90px;
+    margin-left: 80px;
     margin-bottom: 15px;
 }
 .main4{
-    border: 1px solid #dab33e;
+    border: 1px solid white;
 }
 .main4 .textp4{
     margin-bottom: 5px;
@@ -513,19 +527,36 @@ body{
     margin: 0;
     padding: 0;
 }
-#gallery {position:relative; max-width:786px; margin:40px auto; padding:10px; border:6px solid #fff; background:#AAA}
-#images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}
-#image {position:relative; width:672px; height:375px; padding:5px; border:2px solid #666; background:#FFF url(images/loading.gif) center center no-repeat}
-#image img {position:absolute; top:5px; left:5px}
-#thumbwrapper {margin-top:10px; padding:5px 0; width:682px; height:100px; border:2px solid #666; background:#FFF}
-#thumbarea {position:relative; overflow:hidden; height:100px; width:682px; }
-#thumbs {position:absolute; list-style:none; margin-left:5px; height:100px; width:10000px; border-right:5px solid #FFF}
-#thumbs li {float:left; margin-right:5px; cursor:pointer}
-.imgnav {position:absolute; height:375px; width:20%; z-index:100; height:375px; width:20%; z-index:100; outline:none; cursor:pointer}
-#previmg {left:0; background:url(images/left.gif) left center no-repeat; border-left:5px solid #FFF}
-#previmg:hover {opacity:1; filter:alpha(opacity=100)}
-#nextimg {right:0; background:url(images/right.gif) right center no-repeat; border-right:5px solid #FFF}
-#nextimg:hover {opacity:1; filter:alpha(opacity=100)}
+/*#gallery {position:relative; max-width:786px; margin:40px auto; padding:10px; border:6px solid #fff; background:#AAA}*/
+/*#images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}*/
+/*#image {position:relative; width:672px; height:375px; padding:5px; border:2px solid #666; background:#FFF url(images/loading.gif) center center no-repeat}*/
+/*#image img {position:absolute; top:5px; left:5px}*/
+/*#thumbwrapper {margin-top:10px; padding:5px 0; width:682px; height:100px; border:2px solid #666; background:#FFF}*/
+/*#thumbarea {position:relative; overflow:hidden; height:100px; width:682px; }*/
+/*#thumbs {position:absolute; list-style:none; margin-left:5px; height:100px; width:10000px; border-right:5px solid #FFF}*/
+/*#thumbs li {float:left; margin-right:5px; cursor:pointer}*/
+/*.imgnav {position:absolute; height:375px; width:20%; z-index:100; height:375px; width:20%; z-index:100; outline:none; cursor:pointer}*/
+/*#previmg {left:0; background:url(images/left.gif) left center no-repeat; border-left:5px solid #FFF}*/
+/*#previmg:hover {opacity:1; filter:alpha(opacity=100)}*/
+/*#nextimg {right:0; background:url(images/right.gif) right center no-repeat; border-right:5px solid #FFF}*/
+/*#nextimg:hover {opacity:1; filter:alpha(opacity=100)}*/
+.gallery{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.gallery img{
+    opacity: 0.7;
+}
+.gallery img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.galleryUp{
+    text-align: center;
+}
+.galleryDown{
+    text-align: center;
+}
 .footer__content{
     /*background-color: #595959;*/
     padding: 20px 0px 30px;

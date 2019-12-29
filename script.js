@@ -3,6 +3,7 @@ let cssSkil = document.querySelector('.cssSkil');
 let jsSkil = document.querySelector('.jsSkil');
 let  reactSkil = document.querySelector('.reactSkil');
 let time = 30;
+let skilAll = document.querySelector('.skil');
 
 htmlSkil.addEventListener('click', function () {
         let start = 0;
@@ -16,7 +17,10 @@ htmlSkil.addEventListener('click', function () {
                 start++;
             }
         }, time);
+
 })
+
+
 
 
 
@@ -61,7 +65,7 @@ reactSkil.addEventListener('click', function () {
             start++;
         }
     }, time)
-})
+});
 
 
 
